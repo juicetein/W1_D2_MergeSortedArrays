@@ -14,7 +14,7 @@ public class MergeSortedArrays {
 
         int i = 0; // index for first array
         int j = 0; // index for second array
-        int k = 0; // pointer for result array
+        int k = 0; // index for merged array
 
         while (i < A.length && j < B.length) {
             if (A[i] <= B[j]) {
